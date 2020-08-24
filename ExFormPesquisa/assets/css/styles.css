@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    height: 500px;
+    width: 480px;
+    margin-top: 50px;
+}
+.campo_texto {
+    background-color: darkgray;
+}
+#pnome, #snome, #email, #password {
+    border-radius: 5px;
+    border-width: thin;
+    width: 350px;
+    height: 20px;
+    display: flex;
+    justify-items: right;
+}
+.container #cadastrar {
+    border-radius: 10px;
+    text-align: center;
+}
+.container h1 {
+    text-align: center;
+}
