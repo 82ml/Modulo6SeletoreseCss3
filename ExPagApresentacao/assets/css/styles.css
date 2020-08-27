@@ -4,6 +4,7 @@ body {
 }
 header, section, footer {
     display: flex;
+    justify-content: center;
 }
 .topo {
     background-color: #6FDBAB;
